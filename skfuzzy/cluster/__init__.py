@@ -6,6 +6,8 @@ used (if guesses are provided, it is supervised).
 """
 __all__ = ['cmeans',
            'cmeans_predict',
+		   'gk'
            ]
 
 from ._cmeans import cmeans, cmeans_predict
+from ._gk import gk
