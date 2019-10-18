@@ -90,7 +90,6 @@ def gk(data, c, m, error, maxiter, init=None, seed=None):
     error = np.linalg.norm(u - u2)
     fpc = _fp_coeff(u)
     
-    print(np.linalg.norm(u - u2))
     return cntr, u, u0, d, jm, p, fpc, covs
 
 
